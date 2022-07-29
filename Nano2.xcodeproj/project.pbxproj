@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D037C1628936ACF00836802 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D037C1528936ACF00836802 /* DatePickerView.swift */; };
+		1D037C19289389DC00836802 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D037C18289389DC00836802 /* HomeViewModel.swift */; };
 		1DC95B682887EADC000E9C3B /* Nano2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95B672887EADC000E9C3B /* Nano2App.swift */; };
-		1DC95B6A2887EADC000E9C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95B692887EADC000E9C3B /* ContentView.swift */; };
 		1DC95B6C2887EADE000E9C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC95B6B2887EADE000E9C3B /* Assets.xcassets */; };
 		1DC95B6F2887EADE000E9C3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC95B6E2887EADE000E9C3B /* Preview Assets.xcassets */; };
-		1DC95B712887EADE000E9C3B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95B702887EADE000E9C3B /* Persistence.swift */; };
-		1DC95B742887EADE000E9C3B /* Nano2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DC95B722887EADE000E9C3B /* Nano2.xcdatamodeld */; };
+		1DCB4B9B288FAA3E00FBDEA4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB4B9A288FAA3D00FBDEA4 /* Home.swift */; };
+		1DCB4B9D28910F5700FBDEA4 /* CreateTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB4B9C28910F5700FBDEA4 /* CreateTask.swift */; };
+		1DD74649289309C200C3B066 /* Nano2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DD74647289309C200C3B066 /* Nano2.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D037C1528936ACF00836802 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		1D037C18289389DC00836802 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1DC95B642887EADC000E9C3B /* Nano2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nano2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC95B672887EADC000E9C3B /* Nano2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano2App.swift; sourceTree = "<group>"; };
-		1DC95B692887EADC000E9C3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DC95B6B2887EADE000E9C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DC95B6E2887EADE000E9C3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1DC95B702887EADE000E9C3B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1DC95B732887EADE000E9C3B /* Nano2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nano2.xcdatamodel; sourceTree = "<group>"; };
+		1DCB4B9A288FAA3D00FBDEA4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1DCB4B9C28910F5700FBDEA4 /* CreateTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTask.swift; sourceTree = "<group>"; };
+		1DD74648289309C200C3B066 /* Nano2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nano2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D037C17289389BA00836802 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1D037C18289389DC00836802 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		1DC95B5B2887EADC000E9C3B = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				1DC95B672887EADC000E9C3B /* Nano2App.swift */,
-				1DC95B692887EADC000E9C3B /* ContentView.swift */,
+				1DFF7E092892A522009C45F8 /* Model */,
+				1DFF7E082892A50C009C45F8 /* View */,
+				1D037C17289389BA00836802 /* ViewModel */,
 				1DC95B6B2887EADE000E9C3B /* Assets.xcassets */,
-				1DC95B702887EADE000E9C3B /* Persistence.swift */,
-				1DC95B722887EADE000E9C3B /* Nano2.xcdatamodeld */,
 				1DC95B6D2887EADE000E9C3B /* Preview Content */,
 			);
 			path = Nano2;
@@ -71,6 +83,24 @@
 				1DC95B6E2887EADE000E9C3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DFF7E082892A50C009C45F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DCB4B9A288FAA3D00FBDEA4 /* Home.swift */,
+				1D037C1528936ACF00836802 /* DatePickerView.swift */,
+				1DCB4B9C28910F5700FBDEA4 /* CreateTask.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DFF7E092892A522009C45F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DD74647289309C200C3B066 /* Nano2.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC95B742887EADE000E9C3B /* Nano2.xcdatamodeld in Sources */,
-				1DC95B712887EADE000E9C3B /* Persistence.swift in Sources */,
-				1DC95B6A2887EADC000E9C3B /* ContentView.swift in Sources */,
+				1DD74649289309C200C3B066 /* Nano2.xcdatamodeld in Sources */,
+				1D037C19289389DC00836802 /* HomeViewModel.swift in Sources */,
+				1D037C1628936ACF00836802 /* DatePickerView.swift in Sources */,
+				1DCB4B9B288FAA3E00FBDEA4 /* Home.swift in Sources */,
+				1DCB4B9D28910F5700FBDEA4 /* CreateTask.swift in Sources */,
 				1DC95B682887EADC000E9C3B /* Nano2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,12 +381,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1DC95B722887EADE000E9C3B /* Nano2.xcdatamodeld */ = {
+		1DD74647289309C200C3B066 /* Nano2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1DC95B732887EADE000E9C3B /* Nano2.xcdatamodel */,
+				1DD74648289309C200C3B066 /* Nano2.xcdatamodel */,
 			);
-			currentVersion = 1DC95B732887EADE000E9C3B /* Nano2.xcdatamodel */;
+			currentVersion = 1DD74648289309C200C3B066 /* Nano2.xcdatamodel */;
 			path = Nano2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
